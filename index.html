@@ -88,8 +88,13 @@
                     <textarea class="comment-area" name="сomment" id="comment"  placeholder="Введіть текст"></textarea>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox">
-                        <p class="form-text">Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox-sel">Умови договору</a></p>
+                        <label class="checkbox-box">
+                        <input type="checkbox" name="approve" id="agreement" class="checkbox-form">
+                        <svg class="icon-check" width="16" height="15">
+                            <use href="./image/icons.svg#icon-Vector-1"></use>
+                        </svg></use></svg>
+                        <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox-sel">Умови договору</a>
+                        </span></label>
                     </div>
                    
                     <button type="submit" class="form-btn">Відправити</button>
